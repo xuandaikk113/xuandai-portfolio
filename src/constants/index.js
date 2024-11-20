@@ -174,62 +174,226 @@ const certificates = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Auto-Parking System",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "The system automatically recognizes and classifies employee vehicle license plates, automatically opens the security fence and displays the results on the display screen while simultaneously playing sounds to notify entry and exit events. -based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        reposibility: [],
+
         tags: [
             {
-                name: "react",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "opencv",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "ultralytics",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "linux",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "white-text-gradient",
             },
         ],
         image: carrent,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Human Gestures Recognition Program",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "The program detects humans and recognizes interactive actions to signal the giant robot to interact back. The robot has the role of promoting the brand and introducing advertisements on the large screen in the eye area.  application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        reposibility: [],
         tags: [
             {
-                name: "react",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "opencv",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "ultralytics",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "linux",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "white-text-gradient",
             },
         ],
         image: jobit,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Employee Identification System",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "The system automatically recognizes employees' faces with high accuracy, records office entry and exit events, and saves history for timekeeping purposes. The system is capable of simultaneously recognizing multiple faces at near real-time speed and does not require employees to look directly at the camera.",
+        reposibility: [],
         tags: [
             {
-                name: "nextjs",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "opencv",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "ultralytics",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "arcface",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "faiss",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "linux",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "white-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Chatbot Platform System",
+        description:
+            "The system allows marketing departments as well as the company's retail stores to access and create their own chatbots to support customer care and sales. It is deployed with high availability and can be expanded according to usage needs.",
+        reposibility: [],
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rasa",
+                color: "green-text-gradient",
+            },
+            {
+                name: "ollama",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "langchain",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "kubernetes",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "jenkins",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "argocd",
+                color: "white-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Personal Protective Equipment (PPE) Recognition Program",
+        description:
+            "The program is deployed on a mobile application, capable of identifying and detecting protective equipment of construction workers and issuing warnings when it detects a lack of necessary protective equipment.",
+        reposibility: [],
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "flutter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tensorflow-lite",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "ultralytics",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Reporters Tracking Program",
+        description:
+            "The program is capable of reading report files (online and offline) of teams in the company, performing analysis, statistics and displaying data in the form of tables and charts. Focuses mainly on data processing and analysis.",
+        reposibility: [],
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "pandas",
+                color: "green-text-gradient",
+            },
+            {
+                name: "streamlit",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "CapCorp’s FAQ Chatbot Program",
+        description:
+            "The program is capable of answering customers' frequently asked questions during the application usage process based on pre-set scenarios. In addition, it can also reference internal data and based on that, provide relevant information without having to retrain the model.",
+        reposibility: [],
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nestjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "graphql",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "langchain",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rag",
+                color: "green-text-gradient",
+            },
+            {
+                name: "aws",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "docker",
                 color: "pink-text-gradient",
             },
         ],

@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full cursor-pointer">
       <motion.div
-        variants={fadeIn("right", "spring", index * 0.2, 0.5)}
+        variants={fadeIn("right", "spring", index * 0.3, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
@@ -39,10 +39,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Your work anniversary is a reminder that you’ve spent another year not
-        getting caught for internet shopping at work. It’s also a time to look
-        back at your accomplishments and look forward to the future. Here are
-        some work anniversary quotes to help you do just that.
+        I am a dedicated Software Engineer with a passion for continuous
+        learning and modern technologies. Since starting my career in 2022, I
+        have gained extensive experience across various business domains and
+        roles. I am particularly enthusiastic about developing applications that
+        integrate cutting-edge technologies like Artificial Intelligence (AI),
+        Internet of Things (IoT), Chatbot Development, ... My diverse background
+        enables me to design and implement robust, scalable solutions that
+        deliver meaningful value to users.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

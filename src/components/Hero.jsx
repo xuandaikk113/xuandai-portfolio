@@ -15,8 +15,14 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm <span className="text-[#915eff]">Xuan Dai</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a funny guy <br className="sm:block hidden" /> Hehe boy...
+          <p className={`${styles.heroSubText} mt-5 text-white-100`}>
+            I’m skilled in developing web and AI applications, implementing
+            DevOps practices like CI/CD, logging, and monitoring, ... With
+            strong English communication and conversational abilities, i can
+            effectively leading teams and quickly adapt to new environments. I
+            'm always eager to learn new technologies and share my knowledge in
+            meaningful ways.
+            <br />
           </p>
         </div>
       </div>
