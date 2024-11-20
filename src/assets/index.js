@@ -55,6 +55,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import anpr from "./anpr.png";
+import cbp from "./cbp.jpg";
+import data from "./data.jpg";
+import face from "./face.png";
+import faqchatbot from "./faqchatbot.png";
+import pose from "./pose.png";
+import ppe from "./ppe.jpg";
 
 import letterD from "./letter-d.png";
 import thaco from "./company/thaco.jpg";
@@ -95,6 +102,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  anpr,
+  cbp,
+  data,
+  face,
+  faqchatbot,
+  pose,
+  ppe,
   letterD,
   certificate,
   toeic,

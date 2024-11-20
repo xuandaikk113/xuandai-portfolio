@@ -12,6 +12,7 @@ const CertificateCard = ({ index, name, description, image }) => (
     initial="hidden"
     whileInView="show"
     viewport={{ once: true, amount: 0.7 }}
+    whileHover={{ scale: 1.05 }}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
   >
     <p className="text-white font-black text-[24px]">***</p>

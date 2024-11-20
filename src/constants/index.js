@@ -25,6 +25,13 @@ import {
     carrent,
     jobit,
     tripguide,
+    anpr,
+    cbp,
+    data,
+    face,
+    faqchatbot,
+    pose,
+    ppe,
     threejs,
     certificate,
     argocd,
@@ -289,7 +296,7 @@ const projects = [
                 color: "white-text-gradient",
             },
         ],
-        image: carrent,
+        image: anpr,
         source_code_link: "https://github.com/",
     },
     {
@@ -319,7 +326,7 @@ const projects = [
                 color: "white-text-gradient",
             },
         ],
-        image: jobit,
+        image: pose,
         source_code_link: "https://github.com/",
     },
     {
@@ -357,7 +364,7 @@ const projects = [
                 color: "white-text-gradient",
             },
         ],
-        image: tripguide,
+        image: face,
         source_code_link: "https://github.com/",
     },
     {
@@ -395,7 +402,7 @@ const projects = [
                 color: "white-text-gradient",
             },
         ],
-        image: tripguide,
+        image: cbp,
         source_code_link: "https://github.com/",
     },
     {
@@ -421,7 +428,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: ppe,
         source_code_link: "https://github.com/",
     },
     {
@@ -447,7 +454,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: data,
         source_code_link: "https://github.com/",
     },
     {
@@ -485,7 +492,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: faqchatbot,
         source_code_link: "https://github.com/",
     },
 ];
