@@ -26,7 +26,32 @@ import {
     jobit,
     tripguide,
     threejs,
-    certificate
+    certificate,
+    argocd,
+    aws,
+    django,
+    djangorest,
+    dockerswarm,
+    graphql,
+    helmchart,
+    jenkins,
+    jupyter,
+    k8s,
+    langchain,
+    linux,
+    nestjs,
+    nginx,
+    numpy,
+    ollama,
+    opencv,
+    pandas,
+    postgres,
+    python,
+    pytorch,
+    rasa,
+    tensorflow,
+    tensorrt,
+    ultralytics
 } from "../assets";
 
 export const navLinks = [
@@ -76,14 +101,14 @@ const services = [
 ];
 
 const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
+    // {
+    //     name: "HTML 5",
+    //     icon: html,
+    // },
+    // {
+    //     name: "CSS 3",
+    //     icon: css,
+    // },
     {
         name: "JavaScript",
         icon: javascript,
@@ -92,41 +117,141 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "React JS",
+    //     icon: reactjs,
+    // },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "ArgoCD",
+        icon: argocd,
+    },
+    {
+        name: "AWS",
+        icon: aws,
+    },
+    {
+        name: "Django",
+        icon: django,
+    },
+    {
+        name: "Django REST",
+        icon: djangorest,
+    },
+    // {
+    //     name: "Docker Swarm",
+    //     icon: dockerswarm,
+    // },
+    {
+        name: "GraphQL",
+        icon: graphql,
+    },
+    // {
+    //     name: "Helm Chart",
+    //     icon: helmchart,
+    // },
+    {
+        name: "Jenkins",
+        icon: jenkins,
+    },
+    {
+        name: "Jupyter",
+        icon: jupyter,
+    },
+    {
+        name: "Kubernetes",
+        icon: k8s,
+    },
+    {
+        name: "LangChain",
+        icon: langchain,
+    },
+    {
+        name: "Linux",
+        icon: linux,
+    },
+    {
+        name: "NestJS",
+        icon: nestjs,
+    },
+    // {
+    //     name: "Nginx",
+    //     icon: nginx,
+    // },
+    // {
+    //     name: "NumPy",
+    //     icon: numpy,
+    // },
+    // {
+    //     name: "Ollama",
+    //     icon: ollama,
+    // },
+    {
+        name: "OpenCV",
+        icon: opencv,
+    },
+    {
+        name: "Pandas",
+        icon: pandas,
+    },
+    // {
+    //     name: "Postgres",
+    //     icon: postgres,
+    // },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "PyTorch",
+        icon: pytorch,
+    },
+    {
+        name: "Rasa",
+        icon: rasa,
+    },
+    {
+        name: "TensorFlow",
+        icon: tensorflow,
+    },
+    {
+        name: "TensorRT",
+        icon: tensorrt,
+    },
+    {
+        name: "Ultralytics",
+        icon: ultralytics,
     },
 ];
 
