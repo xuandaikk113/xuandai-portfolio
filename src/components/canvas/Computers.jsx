@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
@@ -7,21 +7,10 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./earthquakes/scene.gltf");
   return (
     <mesh>
-      {/* <hemisphereLight intensity={1.5} groundColor="black" />
-      <pointLight intensity={3} />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1}
-        castShadow
-        shadow-mapSize={1024}
-      /> */}
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.03 : 0.05}
         position={[0, -1.2, 0]}
-        // rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
   );
@@ -52,6 +41,8 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          // autoRotate={true}
+          // autoRotateSpeed={0.5}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
