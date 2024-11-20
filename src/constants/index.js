@@ -1,3 +1,4 @@
+import { desc } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -19,10 +20,13 @@ import {
     starbucks,
     tesla,
     shopify,
+    thaco,
+    techvify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    certificate
 } from "../assets";
 
 export const navLinks = [
@@ -31,12 +35,20 @@ export const navLinks = [
         title: "About",
     },
     {
+        id: "education",
+        title: "Education",
+    },
+    {
         id: "experience",
         title: "Experience",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "projects",
+        title: "Projects",
+    },
+    {
+        id: "certificates",
+        title: "Certificates",
     },
     {
         id: "contact",
@@ -46,11 +58,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
+        title: "AI Engineer",
         icon: mobile,
     },
     {
@@ -58,8 +66,12 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Devops Engineer",
         icon: creator,
+    },
+    {
+        title: "Projects Manager",
+        icon: web,
     },
 ];
 
@@ -120,11 +132,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "AI Engineer (Team Leader)",
+        company_name: "R&D Center THACO INDUSTRIES",
+        icon: thaco,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "June 2022 - June 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,37 +145,11 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Software Engineer",
+        company_name: "Techvify Software Danang",
+        icon: techvify,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "June 2024 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -173,30 +159,16 @@ const experiences = [
     },
 ];
 
-const testimonials = [
+const certificates = [
     {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        name: "TOEIC Certificate",
+        description: "Overall score: 975/990",
+        image: certificate,
     },
     {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        name: "JLPT Certificate",
+        description: "Level: N4",
+        image: certificate,
     },
 ];
 
@@ -266,4 +238,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certificates, projects };

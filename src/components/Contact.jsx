@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Nguyen Vo Xuan Dai",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "nguyenvoxuandaikk113@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -69,7 +69,10 @@ const Contact = () => {
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
-        // variants={slideIn("left", "tween", 0.2, 1)}
+        variants={slideIn("left", "tween", 0.2, 1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -87,7 +90,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -98,7 +101,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -124,7 +127,10 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        // variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />

@@ -86,3 +86,22 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
         },
     };
 };
+
+export const rotateIn = (delay, duration) => {
+    return {
+        hidden: {
+            rotate: -180,
+            opacity: 0,
+        },
+        show: {
+            rotate: 0,
+            opacity: 1,
+            transition: {
+                type: "tween",
+                delay: delay,
+                duration: duration,
+                ease: "easeOut",
+            },
+        },
+    };
+};

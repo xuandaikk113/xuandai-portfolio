@@ -3,7 +3,7 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  Certificates,
   Hero,
   Navbar,
   Tech,
@@ -14,7 +14,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relavtive z-0 bg-primary">
+      <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
@@ -23,7 +23,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Certificates />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

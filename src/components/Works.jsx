@@ -17,7 +17,10 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-    // variants={fadeIn("right", "spring", index * 0.2, 0.3)}
+      variants={fadeIn("up", "spring", index * 0.5, 1)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.7 }}
     >
       <Tilt
         options={{
@@ -72,7 +75,10 @@ const Works = () => {
   return (
     <>
       <motion.div
-      // variants={textVariant()}
+        variants={textVariant()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
       >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -80,8 +86,11 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          // variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          variants={textVariant()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -100,4 +109,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "projects");

@@ -31,6 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import letterD from "./letter-d.png";
+import thaco from "./company/thaco.jpg";
+import techvify from "./company/techvify.png";
+
+import certificate from "./certificate.png";
 
 export {
   logo,
@@ -58,8 +62,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  thaco,
+  techvify,
   carrent,
   jobit,
   tripguide,
-  letterD
+  letterD,
+  certificate
 };
