@@ -19,11 +19,31 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <div className="mt-20 w-full h-[100px] bg-black-100 items-center justify-center">
-          Email: <a href="gmail.com">nguyenvoxuandaikk113@gmail.com</a>
-        </div>
-        <div className="mt-10 w-full h-[100px] bg-black-100 items-center justify-center">
-          Zalo: 0868325521
+        <p className="mt-4 text-lg text-gray-400">
+          Feel free to contact me at the following information:
+        </p>
+        <div className="flex flex-col justify-center gap-8">
+          <p className="mt-8 text-xl text-white">
+            Email:{" "}
+            <a
+              href="mailto:nguyenvoxuandaikk113@gmail.com"
+              className="ml-2 text-blue-400 underline"
+            >
+              nguyenvoxuandaikk113@gmail.com
+            </a>
+          </p>
+          <p className="mt-8 text-xl text-white">
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/đài-nguyễn-682185210"
+              className="ml-2 text-blue-400 underline"
+            >
+              Đài Nguyễn
+            </a>
+          </p>
+          <p className="mt-8 text-xl text-white">
+            Zalo: <span className="ml-2 text-blue-400">0868325521</span>
+          </p>
         </div>
       </motion.div>
 
@@ -32,7 +52,7 @@ const Contact = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[450px] h-[300px]"
       >
         <EarthCanvas />
       </motion.div>

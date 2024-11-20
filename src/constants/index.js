@@ -51,7 +51,9 @@ import {
     rasa,
     tensorflow,
     tensorrt,
-    ultralytics
+    ultralytics,
+    toeic,
+    n4
 } from "../assets";
 
 export const navLinks = [
@@ -101,57 +103,102 @@ const services = [
 ];
 
 const technologies = [
-    // {
-    //     name: "HTML 5",
-    //     icon: html,
-    // },
-    // {
-    //     name: "CSS 3",
-    //     icon: css,
-    // },
+    // Languages
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Python",
+        icon: python,
     },
     {
         name: "TypeScript",
         icon: typescript,
     },
-    // {
-    //     name: "React JS",
-    //     icon: reactjs,
-    // },
-    // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
-    // },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon: tailwind,
-    // },
     {
         name: "Node JS",
         icon: nodejs,
     },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
-    // {
-    //     name: "Three JS",
-    //     icon: threejs,
-    // },
+    // Backend
+    {
+        name: "Django REST",
+        icon: djangorest,
+    },
+    {
+        name: "NestJS",
+        icon: nestjs,
+    },
+    {
+        name: "GraphQL",
+        icon: graphql,
+    },
+    {
+        name: "Postgres",
+        icon: postgres,
+    },
+    // AI
+    {
+        name: "PyTorch",
+        icon: pytorch,
+    },
+    {
+        name: "TensorFlow",
+        icon: tensorflow,
+    },
+    {
+        name: "OpenCV",
+        icon: opencv,
+    },
+    {
+        name: "Ultralytics",
+        icon: ultralytics,
+    },
+    {
+        name: "NumPy",
+        icon: numpy,
+    },
+    {
+        name: "Pandas",
+        icon: pandas,
+    },
+    {
+        name: "Rasa",
+        icon: rasa,
+    },
+    {
+        name: "TensorRT",
+        icon: tensorrt,
+    },
+    {
+        name: "LangChain",
+        icon: langchain,
+    },
+    {
+        name: "Ollama",
+        icon: ollama,
+    },
+
+    // DevOps
     {
         name: "git",
         icon: git,
     },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
+    {
+        name: "Linux",
+        icon: linux,
+    },
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "Kubernetes",
+        icon: k8s,
+    },
+    {
+        name: "Helm Chart",
+        icon: helmchart,
+    },
+    {
+        name: "Jenkins",
+        icon: jenkins,
     },
     {
         name: "ArgoCD",
@@ -162,96 +209,12 @@ const technologies = [
         icon: aws,
     },
     {
-        name: "Django",
-        icon: django,
-    },
-    {
-        name: "Django REST",
-        icon: djangorest,
-    },
-    // {
-    //     name: "Docker Swarm",
-    //     icon: dockerswarm,
-    // },
-    {
-        name: "GraphQL",
-        icon: graphql,
-    },
-    // {
-    //     name: "Helm Chart",
-    //     icon: helmchart,
-    // },
-    {
-        name: "Jenkins",
-        icon: jenkins,
-    },
-    {
         name: "Jupyter",
         icon: jupyter,
     },
     {
-        name: "Kubernetes",
-        icon: k8s,
-    },
-    {
-        name: "LangChain",
-        icon: langchain,
-    },
-    {
-        name: "Linux",
-        icon: linux,
-    },
-    {
-        name: "NestJS",
-        icon: nestjs,
-    },
-    // {
-    //     name: "Nginx",
-    //     icon: nginx,
-    // },
-    // {
-    //     name: "NumPy",
-    //     icon: numpy,
-    // },
-    // {
-    //     name: "Ollama",
-    //     icon: ollama,
-    // },
-    {
-        name: "OpenCV",
-        icon: opencv,
-    },
-    {
-        name: "Pandas",
-        icon: pandas,
-    },
-    // {
-    //     name: "Postgres",
-    //     icon: postgres,
-    // },
-    {
-        name: "Python",
-        icon: python,
-    },
-    {
-        name: "PyTorch",
-        icon: pytorch,
-    },
-    {
-        name: "Rasa",
-        icon: rasa,
-    },
-    {
-        name: "TensorFlow",
-        icon: tensorflow,
-    },
-    {
-        name: "TensorRT",
-        icon: tensorrt,
-    },
-    {
-        name: "Ultralytics",
-        icon: ultralytics,
+        name: "Nginx",
+        icon: nginx,
     },
 ];
 
@@ -288,12 +251,12 @@ const certificates = [
     {
         name: "TOEIC Certificate",
         description: "Overall score: 975/990",
-        image: certificate,
+        image: toeic,
     },
     {
         name: "JLPT Certificate",
         description: "Level: N4",
-        image: certificate,
+        image: n4,
     },
 ];
 

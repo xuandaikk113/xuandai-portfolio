@@ -61,6 +61,8 @@ import thaco from "./company/thaco.jpg";
 import techvify from "./company/techvify.png";
 
 import certificate from "./certificate.png";
+import toeic from "./toeic.png";
+import n4 from "./n4.png";
 
 export {
   logo,
@@ -95,6 +97,8 @@ export {
   tripguide,
   letterD,
   certificate,
+  toeic,
+  n4,
   argocd,
   aws,
   django,

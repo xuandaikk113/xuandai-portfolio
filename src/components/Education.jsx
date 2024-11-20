@@ -15,7 +15,8 @@ const Education = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-25 mb-10 text-white-100 text-[30px] max-w-7xl leading-[30px]"
       >
-        🎓 DANANG UNIVERSITY OF SCIENCE AND TECHNOLOGY
+        DANANG UNIVERSITY OF SCIENCE AND TECHNOLOGY
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09/2017 - 03/2022
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.4, 1)}
