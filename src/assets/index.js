@@ -47,7 +47,7 @@ import tensorflow from "./tech/tensorflow.png";
 import tensorrt from "./tech/tensorrt.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
-import ultralytics from "./tech/ultralytics.svg";
+import ultralytics from "./tech/ultralytics.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
