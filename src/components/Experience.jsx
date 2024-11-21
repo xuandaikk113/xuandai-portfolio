@@ -69,7 +69,7 @@ const Experience = () => {
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
       >
         <p className={styles.sectionSubText}>What I have done so far...</p>
         <h2 className={styles.sectionHeadText}>Work Experience.</h2>

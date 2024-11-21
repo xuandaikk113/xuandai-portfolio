@@ -8,10 +8,10 @@ import { certificates } from "../constants";
 
 const CertificateCard = ({ index, name, description, image }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.3, 0.75)}
+    variants={fadeIn("", "spring", index * 0.3, 1.2)}
     initial="hidden"
     whileInView="show"
-    viewport={{ once: true, amount: 0.7 }}
+    // viewport={{ once: true, amount: 0.7 }}
     whileHover={{ scale: 1.05 }}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
   >
@@ -47,9 +47,9 @@ const Certificates = () => {
           variants={textVariant()}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.7 }}
+          // viewport={{ once: true, amount: 0.7 }}
         >
-          <p className={styles.sectionSubText}>My Certificates</p>
+          <p className={styles.sectionSubText}>certificates i have achieved</p>
           <h2 className={styles.sectionHeadText}>Certificates.</h2>
         </motion.div>
       </div>

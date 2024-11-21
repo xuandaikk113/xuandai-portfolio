@@ -287,9 +287,15 @@ const projects = [
     {
         name: "Auto-Parking System",
         description:
-            "The system automatically recognizes and classifies employee vehicle license plates, automatically opens the security fence and displays the results on the display screen while simultaneously playing sounds to notify entry and exit events. -based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        reposibility: [],
-
+            "The system automatically recognizes and classifies employee vehicle license plates, automatically opens the security fence and displays the results on the display screen while simultaneously playing sounds to notify entry and exit events.",
+        reposibility: [
+            "Design system flow and architecture",
+            "Implement object detection, object classification via RTSP cameras",
+            "Collecting data and train alpha-numeric characters recognition model",
+            "Optimize DL model performance",
+            "Integrate with backend APIs",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -318,8 +324,16 @@ const projects = [
     {
         name: "Human Gestures Recognition Program",
         description:
-            "The program detects humans and recognizes interactive actions to signal the giant robot to interact back. The robot has the role of promoting the brand and introducing advertisements on the large screen in the eye area.  application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        reposibility: [],
+            "The program detects humans and recognizes interactive actions to signal the giant robot to interact back. The robot has the role of promoting the brand and introducing advertisements on the large screen in the eye area.",
+        reposibility: [
+            "Design system flow and architecture",
+            "Implement human detection via RTSP cameras in real-time",
+            "Collecting data and train human gesture recognition model",
+            "Optimize DL model performance",
+            "Integrate with main controlling program via MQTT",
+            "Integrate with backend APIs",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -349,7 +363,14 @@ const projects = [
         name: "Employee Identification System",
         description:
             "The system automatically recognizes employees' faces with high accuracy, records office entry and exit events, and saves history for timekeeping purposes. The system is capable of simultaneously recognizing multiple faces at near real-time speed and does not require employees to look directly at the camera.",
-        reposibility: [],
+        reposibility: [
+            "Design system flow and architecture",
+            "Implement face detection via RTSP cameras in real-time",
+            "Propose face vector encoding model",
+            "Optimize DL model performance",
+            "Integrate with backend APIs",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -387,7 +408,14 @@ const projects = [
         name: "Chatbot Platform System",
         description:
             "The system allows marketing departments as well as the company's retail stores to access and create their own chatbots to support customer care and sales. It is deployed with high availability and can be expanded according to usage needs.",
-        reposibility: [],
+        reposibility: [
+            "Design system flow and architecture",
+            "Develop backend APIs",
+            "Develop a demo chatbot",
+            "CICD implement",
+            "Logging and monitoring",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -425,7 +453,12 @@ const projects = [
         name: "Personal Protective Equipment (PPE) Recognition Program",
         description:
             "The program is deployed on a mobile application, capable of identifying and detecting protective equipment of construction workers and issuing warnings when it detects a lack of necessary protective equipment.",
-        reposibility: [],
+        reposibility: [
+            "Prepare data and train PPE detection model",
+            "Implement object detection via mobile device camera in real-time",
+            "Optimize DL model performance",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -451,7 +484,12 @@ const projects = [
         name: "Reporters Tracking Program",
         description:
             "The program is capable of reading report files (online and offline) of teams in the company, performing analysis, statistics and displaying data in the form of tables and charts. Focuses mainly on data processing and analysis.",
-        reposibility: [],
+        reposibility: [
+            "Implement data processing and data analysis follow requirement metrics",
+            "Develop backend APIs",
+            "Develop frontend UI",
+            "Packaging and deploy"
+        ],
         tags: [
             {
                 name: "python",
@@ -477,7 +515,13 @@ const projects = [
         name: "CapCorp’s FAQ Chatbot Program",
         description:
             "The program is capable of answering customers' frequently asked questions during the application usage process based on pre-set scenarios. In addition, it can also reference internal data and based on that, provide relevant information without having to retrain the model.",
-        reposibility: [],
+        reposibility: [
+            "Design FAQ chatbot flow",
+            "Implement RAG pipeline for input relevant documents",
+            "Develop related backend APIs",
+            "Develop others application APIs",
+            "Deploy and implement CICD",
+        ],
         tags: [
             {
                 name: "typescript",

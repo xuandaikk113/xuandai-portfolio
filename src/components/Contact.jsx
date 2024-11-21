@@ -12,10 +12,10 @@ const Contact = () => {
       style={{ height: "75vh" }} // Adjust height to 70% of viewport height
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={slideIn("left", "tween", 0.2, 0.8)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -49,10 +49,10 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 0.8)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className="xl:flex-1 xl:h-auto md:h-[450px] h-[300px]"
       >
         <EarthCanvas />

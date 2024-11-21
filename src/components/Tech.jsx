@@ -13,16 +13,16 @@ const Tech = () => {
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
       >
-        <p className={`${styles.sectionSubText} `}>My Skills</p>
+        <p className={`${styles.sectionSubText} `}>What i used to work on</p>
         <h2 className={`${styles.sectionHeadText}`}>Technical Skills.</h2>
       </motion.div>
       <motion.div
-        variants={fadeIn("up", "spring", 0.3, 1)}
+        variants={fadeIn("left", "spring", 0.3, 1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.7 }}
+        // viewport={{ once: true, amount: 0.1 }}
         className="mt-20 flex flex-row flex-wrap justify-center gap-10"
       >
         {technologies.map((technology) => (

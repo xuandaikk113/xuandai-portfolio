@@ -11,16 +11,17 @@ const ProjectCard = ({
   index,
   name,
   description,
+  reposibility,
   tags,
   image,
   source_code_link,
 }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.2, 1)}
+      variants={fadeIn("up", "spring", 0.2, 1)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.3 }}
+      // viewport={{ once: true, amount: 0.2 }}
     >
       <Tilt
         options={{
@@ -55,7 +56,19 @@ const ProjectCard = ({
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
-
+        <hr className="my-5 border-t border-gray-600" />
+        <h5 className="text-white text-[16px] font-bold">Responsibilities:</h5>
+        <ul className="mt-5 ml-5 list-disc space-y-2">
+          {reposibility.map((point, index) => (
+            <li
+              key={`point-${index}`}
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+            >
+              {point}
+            </li>
+          ))}
+        </ul>
+        <hr className="my-5 border-t border-gray-600" />
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
@@ -78,9 +91,9 @@ const Works = () => {
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
       >
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>Projects i have done</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -90,7 +103,7 @@ const Works = () => {
           variants={textVariant()}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true }}
+          // viewport={{ once: true }}
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
