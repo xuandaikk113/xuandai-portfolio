@@ -46,6 +46,18 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <hr className="my-5 border-t border-gray-600" />
+      <h5 className="text-white text-[20px] font-bold">Projects:</h5>
+      <ul className="mt-5 ml-5 list-disc space-y-2">
+        {experience.projects.map((project, index) => (
+          <li
+            key={`experience-project-${index}`}
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
+          >
+            {project}
+          </li>
+        ))}
+      </ul>
     </VerticalTimelineElement>
   );
 };

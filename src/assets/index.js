@@ -17,6 +17,8 @@ import docker from "./tech/docker.png";
 import dockerswarm from "./tech/dockerswarm.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import githubcopilot from "./tech/githubcopilot.png";
+import gpt from "./tech/gpt.png";
 import graphql from "./tech/graphql.png";
 import helmchart from "./tech/helmchart.png";
 import html from "./tech/html.png";
@@ -118,6 +120,8 @@ export {
   django,
   djangorest,
   dockerswarm,
+  githubcopilot,
+  gpt,
   graphql,
   helmchart,
   jenkins,

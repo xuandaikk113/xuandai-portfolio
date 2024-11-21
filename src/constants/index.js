@@ -39,6 +39,8 @@ import {
     django,
     djangorest,
     dockerswarm,
+    githubcopilot,
+    gpt,
     graphql,
     helmchart,
     jenkins,
@@ -223,6 +225,15 @@ const technologies = [
         name: "Nginx",
         icon: nginx,
     },
+    // AI Dev Tools
+    {
+        name: "GitHub Copilot",
+        icon: githubcopilot,
+    },
+    {
+        name: "GPT-3",
+        icon: gpt,
+    },
 ];
 
 const experiences = [
@@ -233,11 +244,15 @@ const experiences = [
         iconBg: "#383E56",
         date: "June 2022 - June 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Researching and developing AI-based solutions for the automotive and manufacturing industry, including techniques such as object detection, image classification, and natural language processing.",
+            "Developing and maintaining web applications, desktop applications, ... using Python, Django, and other related technologies.",
+            "Developing chatbots for customer service and sales support. Using Rasa, LangChain, Ollama, and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implementing CICD pipelines and ensuring high availability and scalability of applications. Using Docker, Kubernetes, Jenkins, ArgoCD and other related technologies.",
+            "Compiling instructional documents and providing training to new team members.",
+            "Supervised and mentored a team of 3 junior developers.",
         ],
+        projects: ["Auto-Parking System", "Human Gestures Recognition Program", "Employee Identification System", "Chatbot Platform System"]
     },
     {
         title: "Software Engineer",
@@ -246,11 +261,12 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "June 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing ai-based programs for company's clients, including object detection, image classification, and natural language processing.",
+            "Developing APIs for web applications, mobile applications, ... using NodeJS, NestJS, GraphQL, MongoDB and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+        projects: ["Personal Protective Equipment (PPE) Recognition Program", "Reporters Tracking Program", "CapCorp’s FAQ Chatbot Program"]
     },
 ];
 
