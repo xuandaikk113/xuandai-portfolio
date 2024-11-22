@@ -19,7 +19,7 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText}`}>Technical Skills.</h2>
       </motion.div>
       <motion.div
-        variants={fadeIn("left", "spring", 0.3, 1)}
+        variants={fadeIn("left", "spring", 0.3, 1.5)}
         initial="hidden"
         whileInView="show"
         // viewport={{ once: true, amount: 0.1 }}
